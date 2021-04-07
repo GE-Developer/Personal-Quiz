@@ -98,7 +98,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1z-uU-6Vp">
                                         <rect key="frame" x="104" y="0.0" width="72" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" systemColor="systemGreenColor"/>
+                                        </state>
                                         <connections>
                                             <action selector="singleAnswerButtonPressed:" destination="wgo-w0-A5J" eventType="touchUpInside" id="MZf-D8-Xxh"/>
                                         </connections>
@@ -106,7 +108,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4a-Ww-SWV">
                                         <rect key="frame" x="104" y="58" width="72" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" systemColor="systemGreenColor"/>
+                                        </state>
                                         <connections>
                                             <action selector="singleAnswerButtonPressed:" destination="wgo-w0-A5J" eventType="touchUpInside" id="7QI-IG-qAp"/>
                                         </connections>
@@ -114,7 +118,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPI-WQ-n1S">
                                         <rect key="frame" x="104" y="116" width="72" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" systemColor="systemGreenColor"/>
+                                        </state>
                                         <connections>
                                             <action selector="singleAnswerButtonPressed:" destination="wgo-w0-A5J" eventType="touchUpInside" id="OrQ-Zw-KgS"/>
                                         </connections>
@@ -122,7 +128,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbI-qP-ct7">
                                         <rect key="frame" x="104" y="174" width="72" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" systemColor="systemGreenColor"/>
+                                        </state>
                                         <connections>
                                             <action selector="singleAnswerButtonPressed:" destination="wgo-w0-A5J" eventType="touchUpInside" id="CrG-df-scN"/>
                                         </connections>
@@ -313,8 +321,6 @@
         <!--Results-->
         <scene sceneID="YZQ-mt-krP">
             <objects>
-                <exit id="Wvx-Za-sP7" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DXS-Gr-7eC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="76b-fp-emI" customClass="ResultsViewController" customModule="Personal_Quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EtU-vk-Muj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -363,6 +369,8 @@
                         <outlet property="textLabel" destination="Cd6-2T-6Yd" id="yyz-Eh-tMI"/>
                     </connections>
                 </viewController>
+                <exit id="Wvx-Za-sP7" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DXS-Gr-7eC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2466" y="75"/>
         </scene>

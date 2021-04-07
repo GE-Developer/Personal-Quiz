@@ -16,6 +16,7 @@
 		EE196402261CE24A003C6DF8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE196401261CE24A003C6DF8 /* Question.swift */; };
 		EE196406261CF0CD003C6DF8 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE196405261CF0CD003C6DF8 /* QuestionsViewController.swift */; };
 		EE196409261CF0E0003C6DF8 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE196408261CF0E0003C6DF8 /* ResultsViewController.swift */; };
+		EE425E78261E4DFD005E0084 /* BackgroundCollor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE425E77261E4DFD005E0084 /* BackgroundCollor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EE196401261CE24A003C6DF8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		EE196405261CF0CD003C6DF8 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		EE196408261CF0E0003C6DF8 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		EE425E77261E4DFD005E0084 /* BackgroundCollor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCollor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				EE1963FA261CE0A6003C6DF8 /* ViewControllers */,
 				EE1963F9261CE067003C6DF8 /* Models */,
 				EE1963FC261CE0D5003C6DF8 /* Storyboards */,
+				EE425E7A261E4E1A005E0084 /* Extensions */,
 				EE1963FF261CE137003C6DF8 /* Supports */,
 				EE1963FE261CE117003C6DF8 /* Resources */,
 			);
@@ -114,6 +117,14 @@
 				EE1963F0261CD036003C6DF8 /* Info.plist */,
 			);
 			path = Supports;
+			sourceTree = "<group>";
+		};
+		EE425E7A261E4E1A005E0084 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE425E77261E4DFD005E0084 /* BackgroundCollor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 				EE1963E3261CD033003C6DF8 /* AppDelegate.swift in Sources */,
 				EE1963E5261CD033003C6DF8 /* SceneDelegate.swift in Sources */,
 				EE196409261CF0E0003C6DF8 /* ResultsViewController.swift in Sources */,
+				EE425E78261E4DFD005E0084 /* BackgroundCollor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

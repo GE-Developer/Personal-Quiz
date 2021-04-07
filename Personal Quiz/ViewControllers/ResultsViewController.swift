@@ -21,7 +21,7 @@ class ResultsViewController: UIViewController {
     // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.addVerticalGradientLayer()
         naviItem.hidesBackButton = true
         
         smileLabel.text = "You are - \(whichAnimal().rawValue)"
