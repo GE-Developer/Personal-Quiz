@@ -45,7 +45,8 @@ class QuestionsViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //guard let
+        guard let resultVC = segue.destination as? ResultsViewController else { return }
+        resultVC.answers = answersChoosen
     }
     
     // MARK: - IB Action
@@ -76,26 +77,19 @@ class QuestionsViewController: UIViewController {
 // MARK: - Private Methods
 extension QuestionsViewController {
     private func setupUI() {
-        // Скрываем стеки
+
         for stackView in [singleStackView, multipleStackView, rangedStackView] {
             stackView?.isHidden = true
         }
         
-        // Получаем текущий вопрос
         let currentQuestion = questions[questionIndex]
-        
-        // Установка текущего вопроса в question label
         questionLabel.text = currentQuestion.title
-        
-        // Calculate progress
+      
         let totalProgress = Float(questionIndex) / Float(questions.count)
-        
-        // Set progress
         questionProgressView.setProgress(totalProgress, animated: true)
         
         title = "Question №: \(questionIndex + 1) / \(questions.count)"
-        
-        // Show stack corresponding to question type
+
         showCurrentAnswers(for: currentQuestion.type) 
     }
     
